@@ -4,4 +4,4 @@ temp = int(temp)
 def convert(num): 
     return (num - 32) * 5/9 
 
-print(convert(temp))
+print("The temperature in celcius is {:.2f}".format(convert(temp)))
