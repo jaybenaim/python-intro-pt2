@@ -1,4 +1,4 @@
-def wrap_text(string): 
-    return "¯\_(ツ)_/¯" + string + "¯\_(ツ)_/¯"
+def wrap_text(string, symbol): 
+    return symbol + string + symbol
 
-print(wrap_text("hello"))
+print(wrap_text("hello", "¯\_(ツ)_/¯"))
